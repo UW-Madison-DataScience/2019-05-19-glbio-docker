@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "University of Wisconsin - Madison, GLBIO 2019"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "GLBIO 2019, UW-Madison"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -47,6 +47,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 <h2 id="general">General Information</h2>
+
+This workshop aims to be the next step in reproducibility for computational biologists and will focus on using and developing software containers. We will review best practices for practicing  reproducible research and teach participants how to use Docker, a popular software for containerization (which can also be used by Singularity, another commonly used containerization platform).  Using containers can help overcome the many interoperability and dependency issues often encountered when distributing or installing software.  Docker images used conjunction with continuous integration is considered to be a possible solution for the reproducibility crisis plaguing research at large.  Similar to a Carpentries workshop, a majority of the proposed workshop will be hands-on live-coding.  Workshop attendees are expected to have familiarity with the Unix shell and git/github, bring their own laptops, and follow along with the training.
 
 {% comment %}
   INTRODUCTION
