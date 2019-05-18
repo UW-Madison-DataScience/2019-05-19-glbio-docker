@@ -282,14 +282,7 @@ This workshop aims to be the next step in reproducibility for computational biol
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
+  To participate in the
   workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
@@ -304,7 +297,7 @@ This workshop aims to be the next step in reproducibility for computational biol
   <h3>Docker</h3>
 
   <p>
-    See setup page [here](https://uw-madison-datascience.github.io/docker-introduction/setup.html).
+    See setup page  <a href = "https://uw-madison-datascience.github.io/docker-introduction/setup.html">here</a>.
   </p>
  <!---
   <div class="row">
